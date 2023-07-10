@@ -11,6 +11,8 @@
   justify-content: space-around;
   height: 100px;
   align-items: center;
+  top:0px;
+  position:sticky;
 }
 
 .logo{
@@ -27,18 +29,51 @@
 }
 
 
-/** banner-container  */
 .banner-container{
   height: 100vh;
-  background-image: url(./asset/image/background.jpg), linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.9));
+  background-image:url("./asset/image/background.jpg"),linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.5));
   background-blend-mode:overlay;
-  background-repeat: no-repeat;
   background-position: center;
   background-size:cover;
-  /* background-color: red; */
-  /* display: flex;
-  flex-direction: column;
-  justify-content:center;
-  margin: 0 auto; */
-  /* align-items: center; */
+  display: flex; 
+  justify-content: center;
+  align-items:center ;
+  text-align: center;
+}
+
+.digital-agency{
+  font-size: 65px;
+  color: white;
+}
+
+.digital{
+  color: red;
+}
+
+.banner-description{
+  padding-top: 20px;
+  
+  /* todo the below portion is important  */
+  width: 50%;
+  margin: auto;
+  color: yellow;
+  /* text-align: center; */
+}
+
+.button-parent{
+  margin: 20px;
+}
+
+.btn{
+  padding: 12px 20px;
+  border: none;
+  color: white;
+  background-color:red;
+}
+
+.btn2{
+  
+  padding: 12px 20px;
+  border: none;
+  color: black;
 }
