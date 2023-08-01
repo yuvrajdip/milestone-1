@@ -113,7 +113,7 @@
   margin-top: 13%;
 }
 
-.right-banner{
+.right-banner {
   width: 40%;
 }
 
@@ -121,9 +121,9 @@
   width: 100%;
   /* height: %; */
   object-fit: contain;
-  object-position:center;
+  object-position: center;
   /* overflow-y: hidden; */
-  border-top-left-radius: 15%;  
+  border-top-left-radius: 15%;
 }
 
 .mb-2 {
@@ -151,8 +151,9 @@
 
 
 /* about me section started*/
-.common-width {
+.common-style {
   max-width: 1140px;
+  text-align: center;
 }
 
 .about-me {
@@ -160,14 +161,25 @@
   padding: 130px;
   border-radius: 10px;
   background: #FFF8F3;
-  text-align: center;
 }
 
 
-.detail-info{
+.detail-info {
   display: flex;
+  gap: 24px;
+}
+
+.what-I-do-description {
+  max-width: 910px;
 }
 
 /* about me section ended */
 
-
+.box {
+  width: 267px;
+  height: 377px;
+  padding: 33px;
+  border-radius: 5px;
+  background: #FFF;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
